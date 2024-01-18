@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Mitul Marma",
+        "age":20,
+        "Height":"1,93 m",
+        "Position": "Goalkeeper",
+        "Place of birth":"Rangamati",
+        "foot":"Right",
+        "current club":"Sheikh Russel KC",
+        "price":"100 EUR" ,
+        "img":"https://img.a.transfermarkt.technology/portrait/big/733089-1676496869.jpg?lm=1"
+    },
+    {
+        "id":2,
+        "name":"Mehedi Hasan Srabon",
+        "age":18,
+        "Height":"1,83 m",
+        "Position": "Goalkeeper",
+        "Place of birth":"Comilla",
+        "foot":"Right",
+        "current club":"Bashund. Kings",
+        "price":"75 EUR" ,
+        "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
+    }
+]
