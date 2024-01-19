@@ -1,18 +1,8 @@
 const AddToCart=id =>{
  
-     const playerCart=getpreviousCart();
-    // playerCart[id]='signed';
-
-    const status = playerCart[id];
-    if (!status) {
-        playerCart[id] = 1;
-    }
-    else {
-        return;
-    }
-
-    localStorage.setItem('playerCart',JSON.stringify(playerCart.id));
-
+    const playerCart=getpreviousCart();
+    playerCart[id]=1;
+    localStorage.setItem('playerCart',JSON.stringify(playerCart));
 }
 const getpreviousCart=()=>{
     let playerCart={};

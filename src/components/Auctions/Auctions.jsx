@@ -4,7 +4,7 @@ import './Auctions.css';
 import { useEffect } from 'react';
 import Player from '../Player/Player';
 import Signed from '../Signed/Signed';
-// import {AddToCart} from '../../utilities/utilities'
+import {AddToCart} from '../../utilities/utilities'
 
 const Auctions = () => {
     const [players,setPlayers] = useState([])
@@ -19,9 +19,15 @@ const Auctions = () => {
 
 
     const SignedToCart=(player)=>{
+        for(const cartPayer of playerCart){
+            if(cartPayer.id === player.id){
+                alert('Player Already Signed!!');
+                return;
+            }
+        }
        const newPlayerCart=[...playerCart,player];
        setPlayerCart(newPlayerCart); 
-    //   AddToCart(player.id);
+       AddToCart(player.id);
    }
     return (
         <div className="Auctions">
