@@ -1,0 +1,11 @@
+.Auctions{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.Players{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+    padding: 3rem;
+    justify-content: center;
+}

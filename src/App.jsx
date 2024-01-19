@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Auctions from './components/Auctions/Auctions'
 import Header from './components/Header/Header'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
      <Header></Header>
+     <Auctions></Auctions>
     </>
   )
 }
