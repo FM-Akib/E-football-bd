@@ -4,10 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-const Signed = () => {
+const Signed = (prop) => {
+    const playerCart=prop.playerCart;
+    console.log(playerCart);
     return (
         <div className="SignedContainer">
-            <h3>Total Player <FontAwesomeIcon icon={faArrowRight} style={{color: "#ffffff"}} /> </h3>
+            <h3>Total Player <FontAwesomeIcon icon={faArrowRight} style={{color: "#ffffff"}} />  {playerCart.length}</h3>
             <h3>Total Price <FontAwesomeIcon icon={faArrowRight} style={{color: "#ffffff"}} /> </h3>
            
             <button className="btn-clear btn">Clear Cart  <FontAwesomeIcon icon={faTrash} style={{color: "#ffffff"}} /></button>

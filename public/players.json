@@ -1,6 +1,6 @@
 [
     {
-        "id":1,
+        "id":"1a",
         "name":"Mitul Marma",
         "age":20,
         "Height":"1,93 m",
@@ -9,10 +9,11 @@
         "foot":"Right",
         "currentClub":"Sheikh Russel KC",
         "price":"100" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/big/733089-1676496869.jpg?lm=1"
     },
     {
-        "id":2,
+        "id":"2b",
         "name":"Mehedi Hasan Srabon",
         "age":18,
         "Height":"1,83 m",
@@ -21,10 +22,11 @@
         "foot":"Right",
         "currentClub":"Bashund. Kings",
         "price":"75" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
-        "id":3,
+        "id":"3c",
         "name":"Pappu Hossain",
         "age":24,
         "Height":"1,93 m",
@@ -33,10 +35,11 @@
         "foot":"Right",
         "currentClub":"Abahani Ltd.",
         "price":"50" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/563558-1634404157.JPG?lm=1"
     },
     {
-        "id":4,
+        "id":"4d",
         "name":"Hasan Murad",
         "age":26,
         "Height":"1,83 m",
@@ -45,10 +48,11 @@
         "foot":"Right",
         "currentClub":"Mohammedans",
         "price":"75" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
-        "id":5,
+        "id":"5e",
         "name":"Isa Faysal",
         "age":24,
         "Height":"1,76 m",
@@ -57,10 +61,11 @@
         "foot":"Right",
         "currentClub":"Bangladesh Police FC",
         "price":"225" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/581218-1586502031.jpg?lm=1"
     },
     {
-        "id":6,
+        "id":"6f",
         "name":"Alomgir Molla",
         "age":23,
         "Height":"1,83 m",
@@ -69,10 +74,11 @@
         "foot":"Right",
         "currentClub":"Abahani Limited Dhaka",
         "price":"100" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
-        "id":7,
+        "id":"7g",
         "name":"Shakil Hossain",
         "age":21,
         "Height":"1,83 m",
@@ -81,10 +87,11 @@
         "foot":"Right",
         "currentClub":"Sheikh Jamal Dhanmondi",
         "price":"75" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
-        "id":8,
+        "id":"8h",
         "name":"Jamal Bhuyan",
         "age":33,
         "Height":"1,73 m",
@@ -93,10 +100,11 @@
         "foot":"Right",
         "currentClub":"Club Sol de Mayo",
         "price":"75" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/102037-1699801062.jpg?lm=1"
     },
     {
-        "id":9,
+        "id":"9i",
         "name":"Shekh Morsalin",
         "age":17,
         "Height":"1,71 m",
@@ -105,10 +113,11 @@
         "foot":"Right",
         "currentClub":"Bashundhara Kings",
         "price":"150" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/961770-1701451191.jpg?lm=1"
     },
     {
-        "id":10,
+        "id":"10j",
         "name":"Tariq Kazi",
         "age":23,
         "Height":"1,79 m",
@@ -117,10 +126,11 @@
         "foot":"Right",
         "currentClub":"Bashundhara Kings",
         "price":"250" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/433891-1618725878.jpg?lm=1"
     },
     {
-        "id":11,
+        "id":"11k",
         "name":"Bishwanath Ghosh",
         "age":24,
         "Height":"1,83 m",
@@ -129,6 +139,7 @@
         "foot":"Right",
         "currentClub":"Bashundhara Kings",
         "price":"175" ,
+        "status":0,
         "img":"https://img.a.transfermarkt.technology/portrait/header/579703-1618725798.jpg?lm=1"
     }
 ]
