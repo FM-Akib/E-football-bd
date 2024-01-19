@@ -4,7 +4,7 @@ import './Auctions.css';
 import { useEffect } from 'react';
 import Player from '../Player/Player';
 import Signed from '../Signed/Signed';
-import {AddToCart} from '../../utilities/utilities'
+import {AddToCart, getpreviousCart} from '../../utilities/utilities'
 
 const Auctions = () => {
     const [players,setPlayers] = useState([])
@@ -17,6 +17,21 @@ const Auctions = () => {
     },[])
 
 
+    useEffect(()=>{
+        const previousCart=getpreviousCart();
+        const savedCart=[];
+
+        for(const id in previousCart){
+            const savedPalyer=players.find(p => p.id === id)
+            if(savedPalyer){
+                // setPlayerCart(savedCart)
+                savedCart.push(savedPalyer);
+                // console.log(savedPalyer);
+            }
+        }
+        setPlayerCart(savedCart)
+    },[players])
+
 
     const SignedToCart=(player)=>{
         for(const cartPayer of playerCart){
@@ -28,6 +43,12 @@ const Auctions = () => {
        const newPlayerCart=[...playerCart,player];
        setPlayerCart(newPlayerCart); 
        AddToCart(player.id);
+   }
+
+   const ClearCart=()=>{
+    localStorage.removeItem('playerCart');
+    setPlayerCart([])
+
    }
     return (
         <div className="Auctions">
@@ -43,7 +64,9 @@ const Auctions = () => {
                  
             </div>
             <div className="SignedCart">
-             <Signed playerCart={playerCart}></Signed>
+             <Signed playerCart={playerCart}
+             ClearCart={ClearCart}
+             ></Signed>
             </div>
             
         </div>
