@@ -8,7 +8,7 @@
         "Place of birth":"Rangamati",
         "foot":"Right",
         "currentClub":"Sheikh Russel KC",
-        "price":"100 EUR" ,
+        "price":"100" ,
         "img":"https://img.a.transfermarkt.technology/portrait/big/733089-1676496869.jpg?lm=1"
     },
     {
@@ -20,7 +20,7 @@
         "Place of birth":"Comilla",
         "foot":"Right",
         "currentClub":"Bashund. Kings",
-        "price":"75 EUR" ,
+        "price":"75" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
@@ -32,7 +32,7 @@
         "Place of birth":"Dhaka",
         "foot":"Right",
         "currentClub":"Abahani Ltd.",
-        "price":"50 EUR" ,
+        "price":"50" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/563558-1634404157.JPG?lm=1"
     },
     {
@@ -44,7 +44,7 @@
         "Place of birth":"Chittagong",
         "foot":"Right",
         "currentClub":"Mohammedans",
-        "price":"75 EUR" ,
+        "price":"75" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
@@ -56,7 +56,7 @@
         "Place of birth":"Rangpur",
         "foot":"Right",
         "currentClub":"Bangladesh Police FC",
-        "price":"225 EUR" ,
+        "price":"225" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/581218-1586502031.jpg?lm=1"
     },
     {
@@ -68,7 +68,7 @@
         "Place of birth":"Jhenaidah",
         "foot":"Right",
         "currentClub":"Abahani Limited Dhaka",
-        "price":"100 EUR" ,
+        "price":"100" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
@@ -80,7 +80,7 @@
         "Place of birth":"Rajshahi",
         "foot":"Right",
         "currentClub":"Sheikh Jamal Dhanmondi",
-        "price":"75 EUR" ,
+        "price":"75" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
     },
     {
@@ -92,7 +92,7 @@
         "Place of birth":"Glostrup",
         "foot":"Right",
         "currentClub":"Club Sol de Mayo",
-        "price":"75 EUR" ,
+        "price":"75" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/102037-1699801062.jpg?lm=1"
     },
     {
@@ -104,7 +104,7 @@
         "Place of birth":"Faridpur Sadar Upazila",
         "foot":"Right",
         "currentClub":"Bashundhara Kings",
-        "price":"150 EUR" ,
+        "price":"150" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/961770-1701451191.jpg?lm=1"
     },
     {
@@ -116,7 +116,7 @@
         "Place of birth":"Tampere",
         "foot":"Right",
         "currentClub":"Bashundhara Kings",
-        "price":"250 EUR" ,
+        "price":"250" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/433891-1618725878.jpg?lm=1"
     },
     {
@@ -128,7 +128,7 @@
         "Place of birth":"Tangail",
         "foot":"Right",
         "currentClub":"Bashundhara Kings",
-        "price":"175 EUR" ,
+        "price":"175" ,
         "img":"https://img.a.transfermarkt.technology/portrait/header/579703-1618725798.jpg?lm=1"
     }
 ]

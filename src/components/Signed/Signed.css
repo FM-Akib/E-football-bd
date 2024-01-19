@@ -1,0 +1,24 @@
+.SignedContainer h3{
+    color: #ffff;
+    margin-left: 5px;
+}
+.SignedContainer{
+    margin-top:80px;
+}
+.btn{
+    
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 2px;
+}
+.btn-clear{
+    margin-top:10px;
+    background-color: rgb(203, 2, 2);
+
+}
+.btn-review{
+    margin-top:10px;
+    background-color:rgb(222, 144, 0);
+}

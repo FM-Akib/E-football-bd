@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './Auctions.css';
 import { useEffect } from 'react';
 import Player from '../Player/Player';
+import Signed from '../Signed/Signed';
 
 const Auctions = () => {
     const [players,setPlayers] = useState([])
@@ -25,7 +26,7 @@ const Auctions = () => {
                  
             </div>
             <div className="SignedCart">
-                
+             <Signed></Signed>
             </div>
             
         </div>
