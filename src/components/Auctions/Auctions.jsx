@@ -25,7 +25,7 @@ const Auctions = () => {
                  
             </div>
             <div className="SignedCart">
-       hello
+                
             </div>
             
         </div>
